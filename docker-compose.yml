@@ -1,7 +1,7 @@
 services:
   apps:
     build: ./apps
-    port:
+    ports:
       - "10000:3000"
     restart: always
     env_file: ./apps/.env
